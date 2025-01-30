@@ -20,6 +20,22 @@ html {
   border-radius: 15px;
 }
 
+
+body{
+  width: 9v5w;
+  margin: 0 auto;
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  gap: 15px;
+
+}
+
+
 .header {
   background-color: #006157;
   grid-column: 1 / 3;
